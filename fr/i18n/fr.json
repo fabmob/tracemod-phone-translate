@@ -241,7 +241,15 @@
             "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
-
+    "intro": {
+        "permissions": {
+            "locationPermExplanation-android-lt-6": "Vous avez accepté la permission lors de l'installation. Vous n'avez rien à faire maintenant.",
+            "locationPermExplanation-android-gte-6": "Merci de sélectionner 'Autoriser'",
+            "locationPermExplanation-android-gte-10": "Merci de sélectionner 'Autoriser tout le temps'",
+            "locationPermExplanation-ios-lt-13": "Merci de sélectionner 'Toujours autoriser'. Cela nous permet de comprendre votre voyage même lorsque vous n'utilisez pas activement l'application",
+            "locationPermExplanation-ios-gte-13": "Merci de sélectionner 'Lors de l'utilisation' maintenant. Après quelques jours, il vous sera demandé si vous souhaitez autoriser l'application en arrière-plan. Sélectionner 'Toujours autoriser' à ce moment-là. Cela nous permet de comprendre votre voyage même lorsque vous n'utilisez pas activement l'application"
+        }
+    },
     "consent": {
         "button-accept": "J'accepte",
         "button-decline": "Je refuse"
