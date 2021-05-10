@@ -77,6 +77,8 @@
 
     "general-settings": {
         "choose-date": "Date",
+        "choose-dataset" : "Choisir un paramètre calcul CO2",
+        "carbon-dataset" : "Paramètres calcul CO2",
         "nuke-ui-state-only": "UI state only",
         "nuke-native-cache-only": "Native cache only",
         "nuke-everything": "Tout",
@@ -181,7 +183,7 @@
     },
 
     "main-diary": "Journal",
-    
+
     "main-heatmap": {
         "title": "Points chauds",
         "counts": "Comptage",
@@ -239,7 +241,7 @@
             "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
-    
+
     "consent": {
         "button-accept": "J'accepte",
         "button-decline": "Je refuse"
@@ -252,5 +254,91 @@
         "download-new-ui": "Télécharger la mise à jour ?",
         "download-not-now": "Pas maintenant",
         "download-apply": "Appliquer"
+    },
+    "tracemob": {
+        "consent":{
+            "button-accept": "Accepter",
+            "button-decline": "Refuser"
+        },
+        "control": {
+            "status": "État",
+            "settings": "Paramètres",
+            "identifier": "Identifiant",
+            "current-location": "Position actuelle:",
+            "start-trip": "Débuter Déplacement",
+            "stop-trip": "Finir Déplacement",
+            "sync-to-cozy-cloud": "Synchroniser avec Cozy Cloud",
+            "view-privacy": "Politique de confidentialité",
+            "calorie-data": "Données pour le calcul de calories",
+            "calorie-erase-data": "Supprimer ces données",
+            "erase-data": "Supprimer mon compte et mes données",
+            "dev-zone": "Zone technique"
+        },
+        "general-settings": {
+            "states": {
+                "ongoing-trip": "Déplacement en cours",
+                "start": "Initialisation",
+                "tracking-stopped": "Tracking terminé",
+                "waiting-for-trip-start": "En attente de déplacement",
+                "unknown": "Inconnu"
+            },
+            "wifi": {
+                "enabled": "Activé",
+                "disabled": "Désactivé"
+            },
+            "location": {
+                "enabled": "Activée",
+                "disabled": "Désactivée"
+            },
+            "network": {
+                "cell": "Cellulaire",
+                "unknown": "Inconnue",
+                "none": "Aucune"
+            },
+            "alert-tracking": {
+                "please-enable-tracking": "Merci d'activer le Tracking",
+                "start-trip-without-tracking": "Vous avez essayé de débuter un voyage sans avoir activé le tracking. Merci de l'activer avant de réessayer"
+            },
+            "confirm-popup": {
+                "warning": "Attention",
+                "forcing-end-trip-warning": "Forcer la fin d'un déplacement peut causer des bugs. Voulez-vous vraiment forcer la fin du déplacement ?",
+                "forcing-start-trip-warning": "Forcer la début d'un déplacement peut causer des bugs. Voulez-vous vraiment forcer la début du déplacement ?",
+                "cancel": "Annuler",
+                "confirm": "Confirmer"
+            },
+            "retrieving-location": "Récupération de la position...",
+            "cannot-retrieve-position-location-disabled": "Localisation désactivée, récupération de votre position impossible.",
+            "user-data-erase": "Vos données seront automatiquement supprimées 30 jours après la suppression de l'application de votre téléphone. Vos données ne seront plus récupérables une fois l'application supprimée."
+        },
+        "main-metrics": {
+            "to": "à",
+            "ok": "OK"
+        },
+        "metrics": {
+            "day": "jour",
+            "days": "jours",
+            "distance": "Distances",
+            "trips": "Déplacements",
+            "duration": "Durées",
+            "median-speed": "Vitesses médianes",
+            "modes": {
+                "AIR_OR_HSR": "Avion ou TGV",
+                "BICYCLING": "Vélo",
+                "BUS": "Bus",
+                "CAR": "Voiture",
+                "IN_VEHICLE": "En véhicule",
+                "LIGHT_RAIL": "Train léger",
+                "ON_FOOT": "Marche",
+                "SUBWAY": "Métro",
+                "TRAIN": "Train",
+                "TRAM": "Tramway",
+                "UNKNOWN": "Inconnu",
+                "WALKING": "Marche"
+            }
+        },
+        "diary": {
+            "select-mode-scroll": "👇 Faire défiler pour + 👇",
+            "select-purpose-scroll": "👇 Faire défiler pour + 👇"
+        }
     }
 }

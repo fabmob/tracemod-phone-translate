@@ -1,6 +1,0 @@
-"dont-force-kill-please" = "Per favore non forzare la chiusura perché questo causerebbe un incremento del consumo della batteria non potendo usare le notifiche silenziose per arrestare correttamento il caricamento dei dati. Clicca per rilanciare.";
-"new-data-collections-terms" = "Nuove condizioni per la raccolta dei dati. La raccolta è interrota fino all'approvazione delle nuove condizioni.";
-"error-reading-activities" = "Errore durante la lettura delle attività.";
-"travel-mode-unavailable" = "Il rilevamento della modalità di spostamento potrebbe essere non disponibile.";
-"activity-detection-unsupported" = "Il rilevamento della modalità di spostamento non è supportato.";
-"travel-mode-unknown" = "Rilevamento della modalità non disponibile - Tutti i viaggi saranno etichettati come SCONOSCIUTO.";
