@@ -275,6 +275,7 @@
             "current-location": "Position actuelle:",
             "start-trip": "Débuter Déplacement",
             "stop-trip": "Finir Déplacement",
+            "tracking": "Suivi activé",
             "sync-to-cozy-cloud": "Synchroniser avec Cozy Cloud",
             "view-privacy": "Politique de confidentialité",
             "calorie-data": "Données pour le calcul de calories",
@@ -319,6 +320,7 @@
             "user-data-erase": "Vos données seront automatiquement supprimées 30 jours après la suppression de l'application de votre téléphone. Vos données ne seront plus récupérables une fois l'application supprimée."
         },
         "main-metrics": {
+            "from": "de",
             "to": "à",
             "ok": "OK"
         },
