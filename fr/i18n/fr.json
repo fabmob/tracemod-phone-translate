@@ -11,7 +11,7 @@
         "notification-option-mute": "Silencieux",
         "notification-option-snooze": "En Sommeil",
         "notification-option-choose": "votre choix",
-        "notification-title": "Comment et pourquoi êtes-vous venu.e?",
+        "notification-title": "Comment et pourquoi êtes-vous venu(e) ?",
         "choose-mode": "Mode principal",
         "skip": "Sauter",
         "snoozed-reminder": "Rappel : en sommeil",
@@ -58,6 +58,8 @@
         "check-ui-updates": "Vérifier les mises à jour",
         "download-json-dump": "Télécharger les données json",
         "email-log": "Envoyer les logs",
+        "upload-log": "Envoyer les logs",
+        "view-privacy": "Politique de confidentialité",
         "user-data": "Mes données",
         "erase-data": "Effacer mes données",
         "dev-zone": "Dev zone",
@@ -66,6 +68,7 @@
         "check-consent": "Validation des conditions",
         "invalidate-cached-docs": "Invalider les docs en cache",
         "nuke-all": "Supprimer buffers et cache",
+        "test-notification": "Test de notification locale",
         "set-ui-channel": "Channel",
         "check-log": "Voir les logs",
         "check-sensed-data": "Données recueillies",
@@ -77,8 +80,8 @@
 
     "general-settings": {
         "choose-date": "Date",
-        "choose-dataset" : "Choisir un paramètre calcul CO2",
-        "carbon-dataset" : "Paramètres calcul CO2",
+        "choose-dataset": "Choisir un paramètre calcul CO2",
+        "carbon-dataset": "Paramètres calcul CO2",
         "nuke-ui-state-only": "UI state only",
         "nuke-native-cache-only": "Native cache only",
         "nuke-everything": "Tout",
@@ -141,14 +144,21 @@
         "report-incident": "Signalez un Incident",
         "draft": "BROUILLON",
         "distance-in-time": "{{distance}} km en {{time}}",
+        "date-distance-in-time": "{{date}}: {{distance}} km en {{time}}",
         "distance": "Distance",
         "time": "Durée",
         "mode": "Mode",
         "purpose": "Motif",
-        "choose-mode": "Mode principal",
-        "choose-purpose": "Motif principal",
-        "how-did-you-get-here": "Mode principal ?",
-        "why-did-you-come-here": "Motif principal ?",
+        "unlabeled": "Non labélisé🔍",
+        "invalid-ebike": "Invalide🔍",
+        "show-all": "Tous",
+        "no-trips-found": "Aucun déplacement trouvé",
+        "for-current-filter": "pour le filtre courant. Afficher Tous pour supprimer les filtres",
+        "scroll-to-load-more": "Faire défiler pour charger plus",
+        "choose-mode": "Choisir un mode",
+        "choose-purpose": "Choisir un motif",
+        "select-mode-scroll": "Mode (👇 Faire défiler pour + 👇)",
+        "select-purpose-scroll": "Motif (👇 Faire défiler pour + 👇)",
         "list-pick-a-date": "Date"
     },
 
@@ -183,6 +193,10 @@
     },
 
     "main-diary": "Journal",
+
+    "main-inf-scroll": {
+        "tab": "Label"
+    },
 
     "main-heatmap": {
         "title": "Points chauds",
@@ -227,28 +241,44 @@
 
     "post-trip-manual-incident-time": "Jour/Heure de l'incident",
 
-    "email-service":{
+    "email-service": {
         "email-account-not-configured": "Le compte email n'est pas configuré",
         "email-account-mail-app": "L'appli e-mail doit être configuré sinon cela ne fonctionnera pas.",
         "going-to-email": "Transfert par mail de la Base de Données {{parentDir}}",
-        "email-log":{
+        "email-log": {
             "subject-logs": "emission logs",
             "body-please-fill-in-what-is-wrong": "Merci d'indiquer ce qui ne fonctionne pas"
         },
         "no-email-address-configured": "Aucune adresse e-mail configurée.",
-        "email-data":{
+        "email-data": {
             "subject-data-dump-from-to": "Données du {{start}} au {{end}}",
             "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
+
+    "upload-service": {
+        "upload-database": "Envoie de la base de données {{db}}",
+        "upload-from-dir": "depuis le répertoire {{parentDir}}",
+        "upload-to-server": "au serveur {{serverURL}}",
+        "going-to-email": "Va envoyer la base de donnée depuis {{parentDir}}",
+        "please-fill-in-what-is-wrong": "Veuillez saisir ce qui ne va pas",
+        "upload-success": "Envoie réussi",
+        "upload-progress": "Envoie de {{filesizemb | number}} MB vers {{serverURL}}",
+        "upload-details": "{{filesizemb | number}} MB envoyés vers {{serverURL}}"
+    },
+
     "intro": {
         "permissions": {
-            "locationPermExplanation-android-lt-6": "Vous avez accepté la permission lors de l'installation. Vous n'avez rien à faire maintenant.",
-            "locationPermExplanation-android-gte-6": "Merci de sélectionner 'Autoriser'",
-            "locationPermExplanation-android-gte-10": "Merci de sélectionner 'Autoriser tout le temps'",
+            "locationPermExplanation-android-lt-6": "Vous avez accepté l'autorisation lors de l'installation. Vous n'avez rien à faire maintenant.",
+            "locationPermExplanation-android-6-9": "Merci de sélectionner 'Autoriser'",
+            "locationPermExplanation-android-10": "Merci de sélectionner 'Autoriser tout le temps'",
+            "locationPermExplanation-android-gte-11": "Merci de sélectionner 'Autoriser tout le temps' pour la localisation dans les autorisations de l'application",
             "locationPermExplanation-ios-lt-13": "Merci de sélectionner 'Toujours autoriser'. Cela nous permet de comprendre votre voyage même lorsque vous n'utilisez pas activement l'application",
-            "locationPermExplanation-ios-gte-13": "Merci de sélectionner 'Lors de l'utilisation' maintenant. Après quelques jours, il vous sera demandé si vous souhaitez autoriser l'application en arrière-plan. Sélectionner 'Toujours autoriser' à ce moment-là. Cela nous permet de comprendre votre voyage même lorsque vous n'utilisez pas activement l'application"
+            "locationPermExplanation-ios-gte-13": "Merci de sélectionner 'Toujours autoriser' dans les autorisations de l'application et de revenir ici pour continuer"
         }
+    },
+    "allow_background": {
+        "samsung": "Désactiver 'Mode économie d'énergie'"
     },
     "consent": {
         "button-accept": "J'accepte",
@@ -264,7 +294,7 @@
         "download-apply": "Appliquer"
     },
     "tracemob": {
-        "consent":{
+        "consent": {
             "button-accept": "Accepter",
             "button-decline": "Refuser"
         },
@@ -276,7 +306,7 @@
             "start-trip": "Débuter Déplacement",
             "stop-trip": "Finir Déplacement",
             "tracking": "Suivi activé",
-            "sync-to-cozy-cloud": "Synchroniser avec Cozy Cloud",
+            "bind-with-cozy-cloud": "Lier avec mon compte Cozy",
             "view-privacy": "Politique de confidentialité",
             "calorie-data": "Données pour le calcul de calories",
             "calorie-erase-data": "Supprimer ces données",
@@ -324,6 +354,9 @@
             "to": "à",
             "ok": "OK"
         },
+        "trip-detail-popover": {
+            "trip-details": "Déplacement"
+        },
         "metrics": {
             "day": "jour",
             "days": "jours",
@@ -349,6 +382,22 @@
         "diary": {
             "select-mode-scroll": "👇 Faire défiler pour + 👇",
             "select-purpose-scroll": "👇 Faire défiler pour + 👇"
+        },
+        "cozy": {
+            "text-1": "Vos données sont perdues en cas de :",
+            "list-1": "suppression de l'application,",
+            "list-2": "ou de suppression des données de l'application,",
+            "list-3": "ou de non-utilisation de l'application pendant 30 jours consécutifs.",
+            "text-2": "Pour conserver vos données, lier TraceMob à un compte Cozy.",
+            "text-3": "Vous pouvez le faire plus tard depuis la page profil.",
+            "bind": "Lier",
+            "later": "Plus tard"
+        },
+        "inactiveUser": {
+            "title": "Données supprimées",
+            "text-1": "TraceMob n'a pas été utilisée pendant au moins 30 jours consécutifs.",
+            "text-2": "Comme précisé dans les conditions générales d'utilisation, toutes les données récupérées par TraceMob ont été supprimés.",
+            "text-3": "Vous pouvez à nouveau utiliser TraceMob en acceptant les C.G.U."
         }
     }
 }
