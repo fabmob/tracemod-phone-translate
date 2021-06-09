@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- e-mission-data-collection -->
+    <!-- ======================================================================================= -->
     <!-- GeofenceActions -->
-    <string name="unable_detect_current_location">Impossible de détecter la position, même en forçant: nouvel essai à la prochaine synchro</string>
-    <!-- ActivityRecognitionChangeIntentService.java -->
-    <string name="recording_activity">Recueil de l\'activité </string>
+    <string name="unable_detect_current_location">Impossible de détecter la position, même en forçant: nouvel essai à la prochaine synchronisation</string>
+    <!-- ActivityRecognitionChangeIntentService.java (debug mode only) -->
     <string name="detected_new_activity">Nouvelle activité détectée: %1$s</string>
     <string name="activity_transport">transport public</string>
     <string name="activity_cycling">vélo</string>
@@ -11,26 +12,101 @@
     <string name="activity_still">arrêt</string>
     <string name="activity_unknown">inconnue</string>
     <string name="activity_tilting">en pente</string>
-    <!-- GeofenceExitIntentService -->
-    <string name="handling_geofence_exit">Sortie de geofence </string>
-    <!-- LocationChangeIntentService -->
-    <string name="recording_location">Recueil de position </string>
-    <!-- TripDiaryStateMachineForegroundService -->
-    <string name="trip_tracking_started">Tracking démarré en tâche de fond </string>
     <!-- TripDiaryStateMachineReceiver -->
-    <string name="new_data_collection_terms">Nouvelles conditions d\'utilisation - recueil arrêté, consentez-vous aux nouvelles conditions?</string>
+    <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - recueil en pause jusqu'à votre acceptation</string>
+    <!-- debug mode only -->
     <string name="battery_level">Interagissez! Niveau de batterie: %1$d</string>
     <!-- TripDiaryStateMachineService and Ongoing-->
-    <string name="google_connection_suspended">API Google interrompue %1$s</string>
-    <string name="google_connection_failed">API Google échec de connexion %1$s</string>
     <string name="success_moving_new_state">Ok pour passer à %1$s</string>
-    <string name="error_creating_geofence">Erreur %1$d lors de la création de geofence</string>
-    <string name="failed_moving_new_state">Echec pour passer à %1$s</string>
+    <string name="failed_moving_new_state">Échec pour passer à %1$s</string>
     <string name="location_permission_off_enable">Recueil de position désactivé, cliquez pour l\'autoriser</string>
-    <string name="error_location_settings">Erreur %1$d dans les paramètres de tracking</string>
-    <string name="unknown_error_location_settings">Erreur inconnue de lecture de position, vérifiez vos paramètres svp</string>
+    <string name="background_loc_permission_off_enable">Receuil de position en arrière-plan désactivé, cliquez pour l\'autoriser</string>
+    <string name="activity_permission_off_enable">Recueil des activités désactivé, cliquez pour l\'autoriser</string>
+    <string name="error_location_settings">Erreur dans les paramètres de suivi, cliquez pour résoudre</string>
+    <string name="unknown_error_location_settings">Erreur inconnue de lecture de position, merci de vérifier vos paramètres</string>
+    <string name="notify_curr_state">Êtat: %1$s</string>
+    <!-- TripDiaryStateMachineForegroundService -->
+    <string name="foreground_killed_email_log">Service arrêté, signaler dans Profil -> Envoyer les Log</string>
     <!-- ConfigManager -->
-    <string name="error_reading_stored_config">Erreur de lecture de la config de tracking, remettez au défaut</string>
+    <string name="error_reading_stored_config">Erreur de lecture de la configuration du suivi, remettez par défaut</string>
     <!-- DataCollectionPlugin -->
-    <string name="unable_resolve_issue">Impossible de résoudre le problème</string>
+    <string name="unable_resolve_issue">Erreur irrécupérable dans le suivi, signaler dans Profil -> Envoyer les Log</string>
+    <!-- State notification displays-->
+    <string name="local.state.waiting_for_trip_start">Prêt pour votre prochain trajet</string>
+    <string name="local.state.ongoing_trip">Ouais ! Vous être en déplacement, continuez comme ça !</string>
+    <string name="local.state.start">Impossible de démarrer l'application, plus d'infos dans la prochaine fenêtre</string>
+    <string name="local.state.tracking_stopped">Arrêt du suivi ; n\'oubliez pas de le relancer</string>
+    <!-- ======================================================================================= -->
+    <!-- ======================================================================================= -->
+    <!-- ======================================================================================= -->
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

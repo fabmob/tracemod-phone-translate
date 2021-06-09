@@ -57,7 +57,7 @@
         "share": "Partager",
         "check-ui-updates": "Vérifier les mises à jour",
         "download-json-dump": "Télécharger les données json",
-        "email-log": "Envoyer les logs",
+        "email-log": "Envoyer les logs par email",
         "upload-log": "Envoyer les logs",
         "view-privacy": "Politique de confidentialité",
         "user-data": "Mes données",
@@ -292,6 +292,10 @@
         "download-new-ui": "Télécharger la mise à jour ?",
         "download-not-now": "Pas maintenant",
         "download-apply": "Appliquer"
+    },
+    "sensor_explanation": {
+        "button-accept": "OK",
+        "button-decline": "Arrêt"
     },
     "tracemob": {
         "consent": {

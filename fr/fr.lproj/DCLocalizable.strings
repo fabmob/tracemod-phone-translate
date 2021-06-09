@@ -1,6 +1,20 @@
-"dont-force-kill-please" = "SVP ne pas faire force-kill. Cela consomme encore plus de batterie car on n'a plus de notification silent push et on ne peut plus arrêter le traçage proprement. Cliquez pour relancer.";
-"new-data-collections-terms" = "Nouvelles conditions pour le recueil des données - le recueil est interrompu tant que l'utilisateur n'a pas accepté à nouveau ces conditions";
+/* e-mission-data-collection */
+/* ============================================================================================== */
+"dont-force-kill-please" = "Merci de ne pas quitter l'application. Laissez la fonctinner en arrière-plan. Cliquez pour la relancer";
+"new-data-collections-terms" = "Nouvelles conditions générales d\'utilisation - recueil en pause jusqu'à votre acceptation";
 "error-reading-activities" = "Erreur lors de la lecture des activités.";
-"travel-mode-unavailable" = "La détection du mode de déplacement peut être indisponible.";
+"travel-mode-unavailable" = "La détection du mode de déplacement est peut-être indisponible.";
 "activity-detection-unsupported" = "La détection d'activité n'est pas gérée.";
-"travel-mode-unknown" = "Détection du mode indisponible - tous les trajets seront en mode UNKNOWN / INCONNU.";
+"activity-permission-problem" = "Autorisation 'Mouvement et forme' refusée - la détection automatique du mode de transport ne marchera pas. Merci de l'autoriser (Réglages -> TraceMob)";
+"activity-turned-off-problem" = "Service 'Mouvement et forme' désactivé - la détection automatique du mode de transport ne marchera pas. Merci de l'autoriser (Réglages -> Confidentialité -> Mouvements et forme)";
+"travel-mode-unknown" = "Détection du mode de déplacement indisponible - tous les trajets seront marqués UNKNOWN / INCONNU.";
+"bad-loc-tracking-problem" = "La précision de la localisation en arrière-plan est systématiquement médiocre - le suivi des trajets peut ne pas fonctionner. Signaler le problème";
+"location-turned-off-problem" = "Les services de localisation sont désactivés - le suivi des trajets ne fonctionnera pas. Activez-le (Paramètres -> Confidentialité -> Service de localisation)";
+"fix-service-action-button" = "Réglages";
+"permission-problem-title" = "Autorisation incorrecte";
+"location-permission-problem" = "L'application n'a pas l'autorisation 'Toujours' - le suivi des déplacements en arrière-plan ne fonctionnera pas.";
+"fix-permission-action-button" = "Corrigez l'autorisation";
+"precise-location-problem" = "L'application n'a pas la permission de lire la localisation 'précise' - le suivi des trajets en arrière-plan ne fonctionnera pas.";
+/* ============================================================================================== */
+/* ============================================================================================== */
+/* ============================================================================================== */
