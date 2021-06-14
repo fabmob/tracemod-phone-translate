@@ -2,7 +2,7 @@
     "loading": "Chargement...",
     "map-refresh": "Rafraîchir",
     "map-fixmap": "Ré-afficher la Carte",
-    "pull-to-refresh": "Tirer pour rafraîchir",
+    "pull-to-refresh": "Glissez vers le bas pour rafraîchir",
 
     "weekdays-all": "Tout",
     "weekdays-select": "Jour de la semaine",
@@ -10,7 +10,7 @@
     "post-trip-prompt": {
         "notification-option-mute": "Silencieux",
         "notification-option-snooze": "En Sommeil",
-        "notification-option-choose": "votre choix",
+        "notification-option-choose": "Votre choix",
         "notification-title": "Comment et pourquoi êtes-vous venu(e) ?",
         "choose-mode": "Mode principal",
         "skip": "Sauter",
@@ -20,7 +20,7 @@
         "platform-specific-message-android": "Voir les options ou toucher l'écran pour ajouter une info.",
         "platform-specific-message-other": "Toucher l'écran pour ajouter une info sur ce déplacement",
         "notifications-muted": "Arrêt des notifications en fin de déplacement",
-        "notifications-reenabled": "Peut être réactivé depuis Profil / Dev Zone, ou réactivez maintenant.",
+        "notifications-reenabled": "Peut être réactivé depuis Profil / Zone technique, ou réactivez maintenant.",
         "muted": "Silencieux",
         "unmute": "Réactiver",
         "keep-muted": "Laisser silencieux"
@@ -65,7 +65,7 @@
         "dev-zone": "Dev zone",
         "refresh": "Rafraîchir",
         "end-trip-sync": "Forcer End trip + synchro",
-        "check-consent": "Validation des conditions",
+        "check-consent": "Validation du consentement",
         "invalidate-cached-docs": "Invalider les docs en cache",
         "nuke-all": "Supprimer buffers et cache",
         "test-notification": "Test de notification locale",
@@ -93,9 +93,9 @@
         "consent-found": "Consentement trouvé!",
         "consented-to": "Accord pour le protocole {{protocol_id}}, {{approval_date}}",
         "consented-ok": "OK",
-        "share-message": "Rejoins moi pour rendre les moyens de transports plus écolos \nTélécharges l'application emission:",
-        "share-subject": "Emission - UC Berkeley Research Project",
-        "share-url": "https://bic2cal.eecs.berkeley.edu/#download"
+        "share-message": "Fais comme moi, mesure ta mobilité! \nTélécharge l'application tracemob:",
+        "share-subject": "Appli tracemob",
+        "share-url": "https://lafabriquedesmobilites.fr/tracemob"
     },
 
     "metrics": {
@@ -149,12 +149,12 @@
         "time": "Durée",
         "mode": "Mode",
         "purpose": "Motif",
-        "unlabeled": "Non labélisé🔍",
+        "unlabeled": "Pas étiqueté🔍",
         "invalid-ebike": "Invalide🔍",
         "show-all": "Tous",
         "no-trips-found": "Aucun déplacement trouvé",
         "for-current-filter": "pour le filtre courant. Afficher Tous pour supprimer les filtres",
-        "scroll-to-load-more": "Faire défiler pour charger plus",
+        "scroll-to-load-more": "Faire défiler pour charger + de données",
         "choose-mode": "Choisir un mode",
         "choose-purpose": "Choisir un motif",
         "select-mode-scroll": "Mode (👇 Faire défiler pour + 👇)",
@@ -243,10 +243,10 @@
 
     "email-service": {
         "email-account-not-configured": "Le compte email n'est pas configuré",
-        "email-account-mail-app": "L'appli e-mail doit être configuré sinon cela ne fonctionnera pas.",
+        "email-account-mail-app": "L'appli e-mail doit être configurée sinon cela ne fonctionnera pas.",
         "going-to-email": "Transfert par mail de la Base de Données {{parentDir}}",
         "email-log": {
-            "subject-logs": "emission logs",
+            "subject-logs": "logs de tracemob",
             "body-please-fill-in-what-is-wrong": "Merci d'indiquer ce qui ne fonctionne pas"
         },
         "no-email-address-configured": "Aucune adresse e-mail configurée.",
@@ -257,13 +257,13 @@
     },
 
     "upload-service": {
-        "upload-database": "Envoie de la base de données {{db}}",
+        "upload-database": "Envoi de la base de données {{db}}",
         "upload-from-dir": "depuis le répertoire {{parentDir}}",
         "upload-to-server": "au serveur {{serverURL}}",
         "going-to-email": "Va envoyer la base de donnée depuis {{parentDir}}",
         "please-fill-in-what-is-wrong": "Veuillez saisir ce qui ne va pas",
-        "upload-success": "Envoie réussi",
-        "upload-progress": "Envoie de {{filesizemb | number}} MB vers {{serverURL}}",
+        "upload-success": "Envoi réussi",
+        "upload-progress": "Envoi de {{filesizemb | number}} MB vers {{serverURL}}",
         "upload-details": "{{filesizemb | number}} MB envoyés vers {{serverURL}}"
     },
 
@@ -286,7 +286,7 @@
     },
 
     "updatecheck": {
-        "downloading-update": "Mise à jour de l'UI uniquement",
+        "downloading-update": "Mise à jour de l'Interface Utilisateur uniquement",
         "extracting-update": "Récupération de la mise à jour",
         "done": "Mise à jour faire, chargement en cours...",
         "download-new-ui": "Télécharger la mise à jour ?",
@@ -340,7 +340,7 @@
             },
             "alert-tracking": {
                 "please-enable-tracking": "Merci d'activer le Tracking",
-                "start-trip-without-tracking": "Vous avez essayé de débuter un voyage sans avoir activé le tracking. Merci de l'activer avant de réessayer"
+                "start-trip-without-tracking": "Vous avez essayé de débuter un trajet sans avoir activé le tracking. Merci de l'activer avant de réessayer"
             },
             "confirm-popup": {
                 "warning": "Attention",
@@ -392,7 +392,7 @@
             "list-1": "suppression de l'application,",
             "list-2": "ou de suppression des données de l'application,",
             "list-3": "ou de non-utilisation de l'application pendant 30 jours consécutifs.",
-            "text-2": "Pour conserver vos données, lier TraceMob à un compte Cozy.",
+            "text-2": "Pour conserver vos données, liez TraceMob à un compte CozyCloud.",
             "text-3": "Vous pouvez le faire plus tard depuis la page profil.",
             "bind": "Lier",
             "later": "Plus tard"
