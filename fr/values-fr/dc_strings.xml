@@ -33,9 +33,9 @@
     <string name="unable_resolve_issue">Erreur irrécupérable dans le suivi, signaler dans Profil -> Envoyer les Log</string>
     <!-- State notification displays-->
     <string name="local.state.waiting_for_trip_start">Prêt pour votre prochain trajet</string>
-    <string name="local.state.ongoing_trip">Ouais ! Vous être en déplacement, continuez comme ça !</string>
+    <string name="local.state.ongoing_trip">Super ! Vous êtes en déplacement, continuez comme ça !</string>
     <string name="local.state.start">Impossible de démarrer l'application, plus d'infos dans la prochaine fenêtre</string>
-    <string name="local.state.tracking_stopped">Arrêt du suivi ; n\'oubliez pas de le relancer</string>
+    <string name="local.state.tracking_stopped">Arrêt du suivi de position ; n\'oubliez pas de le relancer</string>
     <!-- ======================================================================================= -->
     <!-- ======================================================================================= -->
     <!-- ======================================================================================= -->
