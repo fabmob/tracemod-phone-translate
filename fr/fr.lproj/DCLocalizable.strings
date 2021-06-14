@@ -1,10 +1,10 @@
 /* e-mission-data-collection */
 /* ============================================================================================== */
-"dont-force-kill-please" = "Merci de ne pas quitter l'application. Laissez la fonctinner en arrière-plan. Cliquez pour la relancer";
+"dont-force-kill-please" = "Merci de ne pas quitter l'application. Laissez-la fonctionner en arrière-plan. Cliquez pour la relancer";
 "new-data-collections-terms" = "Nouvelles conditions générales d\'utilisation - recueil en pause jusqu'à votre acceptation";
 "error-reading-activities" = "Erreur lors de la lecture des activités.";
 "travel-mode-unavailable" = "La détection du mode de déplacement est peut-être indisponible.";
-"activity-detection-unsupported" = "La détection d'activité n'est pas gérée.";
+"activity-detection-unsupported" = "La détection d\'activité n'est pas gérée.";
 "activity-permission-problem" = "Autorisation 'Mouvement et forme' refusée - la détection automatique du mode de transport ne marchera pas. Merci de l'autoriser (Réglages -> TraceMob)";
 "activity-turned-off-problem" = "Service 'Mouvement et forme' désactivé - la détection automatique du mode de transport ne marchera pas. Merci de l'autoriser (Réglages -> Confidentialité -> Mouvements et forme)";
 "travel-mode-unknown" = "Détection du mode de déplacement indisponible - tous les trajets seront marqués UNKNOWN / INCONNU.";
@@ -14,7 +14,7 @@
 "permission-problem-title" = "Autorisation incorrecte";
 "location-permission-problem" = "L'application n'a pas l'autorisation 'Toujours' - le suivi des déplacements en arrière-plan ne fonctionnera pas.";
 "fix-permission-action-button" = "Corrigez l'autorisation";
-"precise-location-problem" = "L'application n'a pas la permission de lire la localisation 'précise' - le suivi des trajets en arrière-plan ne fonctionnera pas.";
+"precise-location-problem" = "L'application n\'a pas la permission de lire la localisation 'précise' - le suivi des trajets en arrière-plan ne fonctionnera pas.";
 /* ============================================================================================== */
 /* ============================================================================================== */
 /* ============================================================================================== */
