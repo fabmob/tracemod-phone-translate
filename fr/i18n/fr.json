@@ -93,8 +93,8 @@
         "consent-found": "Consentement trouvé!",
         "consented-to": "Accord pour le protocole {{protocol_id}}, {{approval_date}}",
         "consented-ok": "OK",
-        "share-message": "Fais comme moi, mesure ta mobilité! \nTélécharge l'application tracemob:",
-        "share-subject": "Appli tracemob",
+        "share-message": "Fais comme moi, mesure ta mobilité! \nTélécharge l'application TraceMob : ",
+        "share-subject": "Appli TraceMob",
         "share-url": "https://lafabriquedesmobilites.fr/tracemob"
     },
 
@@ -246,7 +246,7 @@
         "email-account-mail-app": "L'appli e-mail doit être configurée sinon cela ne fonctionnera pas.",
         "going-to-email": "Transfert par mail de la Base de Données {{parentDir}}",
         "email-log": {
-            "subject-logs": "logs de tracemob",
+            "subject-logs": "logs de TraceMob",
             "body-please-fill-in-what-is-wrong": "Merci d'indiquer ce qui ne fonctionne pas"
         },
         "no-email-address-configured": "Aucune adresse e-mail configurée.",
