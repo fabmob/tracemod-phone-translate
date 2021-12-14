@@ -13,7 +13,7 @@
     <string name="activity_unknown">inconnue</string>
     <string name="activity_tilting">en pente</string>
     <!-- TripDiaryStateMachineReceiver -->
-    <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - recueil en pause jusqu'à votre acceptation</string>
+    <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - recueil en pause jusqu\'à votre acceptation</string>
     <!-- debug mode only -->
     <string name="battery_level">Interagissez! Niveau de batterie: %1$d</string>
     <!-- TripDiaryStateMachineService and Ongoing-->
@@ -34,7 +34,7 @@
     <!-- State notification displays-->
     <string name="local.state.waiting_for_trip_start">Prêt pour votre prochain trajet</string>
     <string name="local.state.ongoing_trip">Super ! Vous êtes en déplacement, continuez comme ça !</string>
-    <string name="local.state.start">Impossible de démarrer l'application, plus d'infos dans la prochaine fenêtre</string>
+    <string name="local.state.start">Impossible de démarrer l\'application, plus d\'infos dans la prochaine fenêtre</string>
     <string name="local.state.tracking_stopped">Arrêt du suivi de position ; n\'oubliez pas de le relancer</string>
     <!-- ======================================================================================= -->
     <!-- ======================================================================================= -->
