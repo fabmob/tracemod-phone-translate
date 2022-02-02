@@ -27,6 +27,7 @@
     },
 
     "post-trip-map-display-tour-incident": "Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
+
     "tour-next": "Suivant",
     "tour-previous": "Précédent",
     "tour-finish": "Fin",
@@ -45,12 +46,14 @@
     "place-trips-to": "{{trips}} déplacements vers",
     "place-usually-starts": "Commence en général à: {{hour}}:00",
     "place-usually-takes": "Dure en général: {{duration}}",
+
     "trip-start-hours": "Heures de départ",
     "trip-start-duration": "Durée",
 
     "control": {
         "profile": "Profil",
         "tracking": "Tracking activé",
+        "app-status": "Status de l'application",
         "medium-accuracy": "Précision moyenne",
         "dark-theme": "Thème sombre",
         "force-sync": "Forcer la synchro",
@@ -75,7 +78,8 @@
         "check-map": "Vérifier la carte",
         "collection": "Recueil",
         "sync": "Synchro",
-        "transition-notify": "Notifier une transition"
+        "transition-notify": "Notifier une transition",
+        "button-accept": "J'accepte"
     },
 
     "general-settings": {
@@ -106,7 +110,7 @@
         "filter": "Filtre",
         "from": "de :",
         "to": "à :",
-        "last-week": "Semaine dernière",
+        "last-week": "la semaine dernière",
         "frequency": "Fréquence:",
         "pandafreqoptions-daily": "par JOUR",
         "pandafreqoptions-weekly": "par SEMAINE",
@@ -122,16 +126,18 @@
         "chart-no-data": "Pas de données!",
         "trips-yaxis-number": "Nombre",
         "calorie-data-change": " d'écart",
-        "carbon-data-change": " d'écart",
-        "carbon-data-calculating": "Je calcule...",
-        "carbon-data-unknown": "Inconnu",
         "calorie-data-unknown": "Inconnu...",
+        "greater-than": " de plus que ",
+        "greater": " plus ",
+        "or": "ou",
+        "less-than": " de moins que ",
+        "less": " moins ",
+        "week-before": "vs. semaine précédente",
         "calorie-data-change-increase": " d'augmentation en 1 semaine",
         "calorie-data-change-decrease": " de diminution en 1 semaine",
-        "carbon-data-change-increase": " d'augmentation en 1 semaine",
-        "carbon-data-change-decrease": " de diminution en 1 semaine",
         "pick-a-date": "Choisissez la date",
         "trips": "déplacements",
+        "hours": "heures",
         "custom": "Dates personnalisées"
     },
 
@@ -151,15 +157,50 @@
         "purpose": "Motif",
         "unlabeled": "Pas étiqueté🔍",
         "invalid-ebike": "Invalide🔍",
+        "to-label": "Étiqueter",
         "show-all": "Tous",
         "no-trips-found": "Aucun déplacement trouvé",
         "for-current-filter": "pour le filtre courant. Afficher Tous pour supprimer les filtres",
         "scroll-to-load-more": "Faire défiler pour charger + de données",
+        "filter-display-status": "{{displayTripsLength}} / {{allTripsLength}} déplacements affichés",
+        "filter-display-range": "du {{currentEnd | date}} au {{currentStart | date:'medium' }}",
         "choose-mode": "Choisir un mode",
+        "choose-replaced-mode": "Remplacer le mode",
         "choose-purpose": "Choisir un motif",
         "select-mode-scroll": "Mode (👇 Faire défiler pour + 👇)",
+        "select-replaced-mode-scroll": "Remplacement (👇 Faire défiler pour + 👇)",
         "select-purpose-scroll": "Motif (👇 Faire défiler pour + 👇)",
         "list-pick-a-date": "Date"
+    },
+
+    "new_label_tour": {
+        "0": "This is the new Label user interface. Label trips here instead of on the Diary page. Trips take longer to appear here, but when they do they will be more accurate and you will be able to use our new features to label them faster.",
+        "1": "This is the To Label tab. On this tab, only the trips you need to label will appear; when you label them, they will automatically disappear after a few seconds.",
+        "2": "Some of your trips do not appear in To Label because an algorithm labeled them for you. If you're  curious, you can see these in the other tabs, but you only need to label trips on the To Label tab.",
+        "3": "Trips now appear with the newest trip at the bottom.",
+        "4": "To load older trips, scroll up and press the load button.",
+        "5": "Labels are now red if we couldn't predict them, yellow if we could predict them, and green if you entered or confirmed them yourself.",
+        "6": "If you see yellow labels on the To Label tab, this means you need to confirm or correct them.",
+        "7": "If all of a trip's yellow labels are correct, you can click the checkmark button, which will turn them green (the checkmark button doesn't do anything to red or green labels.",
+        "8": "If certain yellow labels are incorrect, you can correct them just like you'd enter a label normally.",
+        "9": "When there are no more trips in To Label, you're done labeling for the day.",
+        "10": "The more you label your trips, the better the algorithm gets at predicting your trips for you, so keeping up-to-date with your labeling will save you work in the long run!",
+        "11": "Click the ‘?’ button whenever you'd like to view this tour again."
+    },
+
+    "new_label_tour": {
+        "0": "This is the new Label user interface. Label trips here instead of on the Diary page. Trips take longer to appear here, but when they do they will be more accurate and you will be able to use our new features to label them faster.",
+        "1": "This is the To Label tab. On this tab, only the trips you need to label will appear; when you label them, they will automatically disappear after a few seconds.",
+        "2": "Some of your trips do not appear in To Label because an algorithm labeled them for you. If you're  curious, you can see these in the other tabs, but you only need to label trips on the To Label tab.",
+        "3": "Trips now appear with the newest trip at the bottom.",
+        "4": "To load older trips, scroll up and press the load button.",
+        "5": "Labels are now red if we couldn't predict them, yellow if we could predict them, and green if you entered or confirmed them yourself.",
+        "6": "If you see yellow labels on the To Label tab, this means you need to confirm or correct them.",
+        "7": "If all of a trip's yellow labels are correct, you can click the checkmark button, which will turn them green (the checkmark button doesn't do anything to red or green labels.",
+        "8": "If certain yellow labels are incorrect, you can correct them just like you'd enter a label normally.",
+        "9": "When there are no more trips in To Label, you're done labeling for the day.",
+        "10": "The more you label your trips, the better the algorithm gets at predicting your trips for you, so keeping up-to-date with your labeling will save you work in the long run!",
+        "11": "Click the ‘?’ button whenever you'd like to view this tour again."
     },
 
     "user-gender": "Genre",
@@ -179,14 +220,18 @@
         "duration": "Durée",
         "speed": "Vitesse",
         "footprint": "Empreinte",
+        "how-it-compares": "Comparaisons approximatives",
         "optimal": "Optimal :",
         "average": "Moyenne :",
-        "worst": "Pire :",
+        "avoided": "CO₂ évité :",
+        "equals-phone-charges": "Économie d'au moins {charges, plural, =0{0 recharges} one {1 recharge} other {# recharges}}",
         "lastweek": "Semaine dernière :",
+        "us-2030-goal": "Estimation U.S.A 2030 : ",
+        "us-2050-goal": "Estimation U.S.A 2050 : ",
         "calories": "Calories",
         "calibrate": "Calibrer",
         "no-summary-data": "Pas de données résumées",
-        "median-speed": "Vitesse médiane",
+        "mean-speed": "Vitesse moyenne",
         "equals-cookies": "soit {cookies, plural, =0{0 cookies} one {1 cookie} other {# cookies}}",
         "equals-icecream": "soit {icecream, plural, =0{0 glaces à la vanille} one {1 glace à la vanille} other {# glaces à la vanille}}",
         "equals-bananas": "soit {bananas, plural, =0{0 bananes} one {1 banane} other {# bananes}}"
@@ -239,6 +284,7 @@
         "reading-unprocessed-data": "Données non traitées en cours de lecture..."
     },
 
+
     "post-trip-manual-incident-time": "Jour/Heure de l'incident",
 
     "email-service": {
@@ -268,6 +314,49 @@
     },
 
     "intro": {
+        "appstatus": {
+            "locsettings": {
+                "name": "Paramètres de localisation",
+                "description": {
+                    "android-lt-9": "Les services de localisation doivent être activés, avec le paramètre 'Haute Précision', afin de pouvoir enregistrer vos traces correctement.",
+                    "android-gte-9": "Les services de localisation doivent être activés. Cela nous permet de recueillir vos positions",
+                    "ios": "Placeholder"
+                }
+            },
+            "locperms": {
+                "name": "Permissions de localisation",
+                "description": {
+                    "android-lt-6": "Activées lors de l'installation.",
+                    "android-6-9": "Choisissez 'autorisez' svp",
+                    "android-10": "Choisissez 'autorisez tout le temps' svp",
+                    "android-gte-11": "Sur la page de paramètres de l'app, pour la permission 'Localisation' permission : indiquez 'autoriser tout le temps' svp.",
+                    "ios": "Placeholder"
+                }
+            },
+            "fitnessperms": {
+                "name": "Permissions sport/santé ",
+                "description": {
+                    "android": "Autorisez svp.",
+                    "ios": "Autorisez svp."
+                }
+            },
+            "notificationperms": {
+                "app-enabled-name": "Notifications de l'appli",
+                "not-paused-name": "Pas en pause",
+                "description": {
+                    "android-enable": "Sur la page des paramètres de l'appli, vérifiez que toutes les notifications et tous les canaux sont autorisés.",
+                    "android-unpause": "Sur la page des paramètres de l'appli, vérifiez que toutes les notifications sont autorisées. Si cela ne résout pas le problème, demandez de l'aide au support.",
+                    "ios": "Autorisez svp."
+                }
+            },
+            "unusedapprestrict": {
+                "name": "Désactiver les applis inutilisées",
+                "description": {
+                    "android-disable": "Sur la page de paramètres de l'appli, vérifiez que les permissions de l'application ne seront pas automatiquement remises à zéro.",
+                    "ios": "Autorisez svp."
+                }
+            }
+        },
         "permissions": {
             "locationPermExplanation-android-lt-6": "Vous avez accepté l'autorisation lors de l'installation. Vous n'avez rien à faire maintenant.",
             "locationPermExplanation-android-6-9": "Merci de sélectionner 'Autoriser'",
@@ -368,6 +457,7 @@
             "trips": "Déplacements",
             "duration": "Durées",
             "median-speed": "Vitesses médianes",
+            "mean-speed": "Vitesse moyenne",
             "modes": {
                 "AIR_OR_HSR": "Avion",
                 "BICYCLING": "Vélo",
