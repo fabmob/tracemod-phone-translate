@@ -315,6 +315,7 @@
 
     "intro": {
         "appstatus": {
+            "overall-loc-name": "Localisation",
             "locsettings": {
                 "name": "Paramètres de localisation",
                 "description": {
@@ -333,6 +334,8 @@
                     "ios": "Placeholder"
                 }
             },
+            "overall-fitness-name-android": "Activité physique",
+            "overall-fitness-name-ios": "Mouvements et forme",
             "fitnessperms": {
                 "name": "Permissions sport/santé ",
                 "description": {
@@ -340,6 +343,7 @@
                     "ios": "Autorisez svp."
                 }
             },
+            "overall-notification-name": "Notifications",
             "notificationperms": {
                 "app-enabled-name": "Notifications de l'appli",
                 "not-paused-name": "Pas en pause",
@@ -349,6 +353,7 @@
                     "ios": "Autorisez svp."
                 }
             },
+            "overall-background-restrictions-name": "Restrictions d'arrière plan",
             "unusedapprestrict": {
                 "name": "Désactiver les applis inutilisées",
                 "description": {
