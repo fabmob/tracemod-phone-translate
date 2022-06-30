@@ -1,5 +1,5 @@
 {
-    "loading": "Chargement...",
+    "loading" : "Chargement...",
     "map-refresh": "Rafraîchir",
     "map-fixmap": "Ré-afficher la Carte",
     "pull-to-refresh": "Glissez vers le bas pour rafraîchir",
@@ -7,7 +7,7 @@
     "weekdays-all": "Tout",
     "weekdays-select": "Jour de la semaine",
 
-    "post-trip-prompt": {
+    "post-trip-prompt":{
         "notification-option-mute": "Silencieux",
         "notification-option-snooze": "En Sommeil",
         "notification-option-choose": "Votre choix",
@@ -15,7 +15,8 @@
         "choose-mode": "Mode principal",
         "skip": "Sauter",
         "snoozed-reminder": "Rappel : en sommeil",
-        "snoozed-reapper-message": "Affiché à nouveau dans 30'",
+
+        "snoozed-reapper-message": "Affiché à nouveau dans 30mins",
         "platform-specific-message-ios": "Glisser vers la G ou toucher pour ajouter une info sur ce déplacement.",
         "platform-specific-message-android": "Voir les options ou toucher l'écran pour ajouter une info.",
         "platform-specific-message-other": "Toucher l'écran pour ajouter une info sur ce déplacement",
@@ -50,8 +51,10 @@
     "trip-start-hours": "Heures de départ",
     "trip-start-duration": "Durée",
 
-    "control": {
+    "control":{
         "profile": "Profil",
+        "edit-demographics": "Modifier les données démographiques",
+        "username": "Identifiant {{usernamedata}}",
         "tracking": "Tracking activé",
         "app-status": "Status de l'application",
         "medium-accuracy": "Précision moyenne",
@@ -79,16 +82,17 @@
         "collection": "Recueil",
         "sync": "Synchro",
         "transition-notify": "Notifier une transition",
-        "button-accept": "J'accepte"
+        "button-accept": "J'accepte",
+        "view-qrc": "Mon QR Code"
     },
 
-    "general-settings": {
-        "choose-date": "Date",
-        "choose-dataset": "Choisir un paramètre calcul CO2",
-        "carbon-dataset": "Paramètres calcul CO2",
-        "nuke-ui-state-only": "UI state only",
-        "nuke-native-cache-only": "Native cache only",
-        "nuke-everything": "Tout",
+    "general-settings":{
+        "choose-date" : "Date",
+        "choose-dataset" : "Choisir un paramètre calcul CO2",
+        "carbon-dataset" : "Paramètres calcul CO2",
+        "nuke-ui-state-only" : "UI state only",
+        "nuke-native-cache-only" : "Native cache only",
+        "nuke-everything" : "Tout",
         "clear-data": "Effacer les données",
         "cancel": "Annuler",
         "user-data-erased": "Données effacées.",
@@ -99,14 +103,18 @@
         "consented-ok": "OK",
         "share-message": "Fais comme moi, mesure ta mobilité! \nTélécharge l'application TraceMob : ",
         "share-subject": "Appli TraceMob",
-        "share-url": "https://lafabriquedesmobilites.fr/tracemob"
+        "share-url": "https://lafabriquedesmobilites.fr/tracemob",
+        "qrcode": "Mon QR Code",
+        "qrcode-share-title": "Vous pouvez enregistrer votre QR Code pour vous connecter facilement à l'avenir !",
+        "qrcode-share-message": "Enregistrez ce QR Code ou envoyez-le à un nouvel appareil pour le scanner et vous connecter ! \n[OpenPath] Mon QR Code : ",
+        "qrcode-share-subject": "Mon QR Code - TraceMob"
     },
 
-    "metrics": {
+    "metrics":{
         "cancel": "Annuler",
         "confirm": "Confirmer",
         "get": "Ok",
-        "range": "Range",
+        "range": "Interval",
         "filter": "Filtre",
         "from": "de :",
         "to": "à :",
@@ -135,7 +143,7 @@
         "week-before": "vs. semaine précédente",
         "calorie-data-change-increase": " d'augmentation en 1 semaine",
         "calorie-data-change-decrease": " de diminution en 1 semaine",
-        "pick-a-date": "Choisissez la date",
+        "pick-a-date": "Choisir une date",
         "trips": "déplacements",
         "hours": "heures",
         "custom": "Dates personnalisées"
@@ -149,14 +157,16 @@
         "began": "A commencé {{startTime}}",
         "report-incident": "Signalez un Incident",
         "draft": "BROUILLON",
-        "distance-in-time": "{{distance}} km en {{time}}",
-        "date-distance-in-time": "{{date}}: {{distance}} km en {{time}}",
+        "distance-in-time": "{{distance}} {{distsuffix}} en {{time}}",
+        "date-distance-in-time": "{{date}}: {{distance}} {{distsuffix}} en {{time}}",
         "distance": "Distance",
         "time": "Durée",
         "mode": "Mode",
+        "replaces": "Remplace",
         "purpose": "Motif",
-        "unlabeled": "Pas étiqueté🔍",
-        "invalid-ebike": "Invalide🔍",
+        "survey": "Détails",
+        "unlabeled": "Pas étiqueté",
+        "invalid-ebike": "Invalide",
         "to-label": "Étiqueter",
         "show-all": "Tous",
         "no-trips-found": "Aucun déplacement trouvé",
@@ -167,25 +177,12 @@
         "choose-mode": "Choisir un mode",
         "choose-replaced-mode": "Remplacer le mode",
         "choose-purpose": "Choisir un motif",
+        "choose-survey": "Ajouter les détails de trajet 📝 ",
         "select-mode-scroll": "Mode (👇 Faire défiler pour + 👇)",
         "select-replaced-mode-scroll": "Remplacement (👇 Faire défiler pour + 👇)",
         "select-purpose-scroll": "Motif (👇 Faire défiler pour + 👇)",
-        "list-pick-a-date": "Date"
-    },
-
-    "new_label_tour": {
-        "0": "This is the new Label user interface. Label trips here instead of on the Diary page. Trips take longer to appear here, but when they do they will be more accurate and you will be able to use our new features to label them faster.",
-        "1": "This is the To Label tab. On this tab, only the trips you need to label will appear; when you label them, they will automatically disappear after a few seconds.",
-        "2": "Some of your trips do not appear in To Label because an algorithm labeled them for you. If you're  curious, you can see these in the other tabs, but you only need to label trips on the To Label tab.",
-        "3": "Trips now appear with the newest trip at the bottom.",
-        "4": "To load older trips, scroll up and press the load button.",
-        "5": "Labels are now red if we couldn't predict them, yellow if we could predict them, and green if you entered or confirmed them yourself.",
-        "6": "If you see yellow labels on the To Label tab, this means you need to confirm or correct them.",
-        "7": "If all of a trip's yellow labels are correct, you can click the checkmark button, which will turn them green (the checkmark button doesn't do anything to red or green labels.",
-        "8": "If certain yellow labels are incorrect, you can correct them just like you'd enter a label normally.",
-        "9": "When there are no more trips in To Label, you're done labeling for the day.",
-        "10": "The more you label your trips, the better the algorithm gets at predicting your trips for you, so keeping up-to-date with your labeling will save you work in the long run!",
-        "11": "Click the ‘?’ button whenever you'd like to view this tour again."
+        "list-pick-a-date": "Date",
+        "no-trips-today": "Aucun trajet enregistré ce jour-là"
     },
 
     "new_label_tour": {
@@ -210,20 +207,37 @@
     "user-weight": "Poids",
     "user-age": "Age",
 
-    "main-metrics": {
+    "main-metrics":{
         "dashboard": "Tableau de bord",
         "summary": "Résumé",
         "chart": "Graphique",
+        "mybear": "Mon Ours",
+        "leaderboard": "Tableau",
+        "carbon-usage": "Utilisation du carbone des 7 derniers jours",
+        "trip-labelling-stats": "Statistiques d'étiquetage des trajets",
+        "gold-tier": "Niveau or",
+        "silver-tier": "Niveau argent",
+        "bronze-tier": "Niveau bronze",
+        "overallScoreMsg": "Score global: {{overallScore | number }}",
+        "confirmationMsg": "{{confirmedPct | number }}% étiquetés",
+        "validLabelsMsg": "{{validReplacePct | number }}% de vignettes eBike 'mode remplacé' valables",
+        "suggestion": "Suggestion",
+        "suggestion-savings": "Vous pouvez économiser {{suggestionData.savings}} en un mois",
+        "recent-trips": "Trajets récents",
+        "no-available-recent-trips": "Aucun trajet récent disponible",
+        "weekly-stats": "Statistiques hebdomadaires",
         "change-data": "Changer date",
         "distance": "Distance",
         "trips": "Déplacements",
         "duration": "Durée",
+        "fav-mode": "Mon mode favori",
         "speed": "Vitesse",
         "footprint": "Empreinte",
         "how-it-compares": "Comparaisons approximatives",
         "optimal": "Optimal :",
         "average": "Moyenne :",
         "avoided": "CO₂ évité :",
+        "label-to-squish": "Déplacements d'étiquettes pour réduire l'interval à un seul chiffre.",
         "equals-phone-charges": "Économie d'au moins {charges, plural, =0{0 recharges} one {1 recharge} other {# recharges}}",
         "lastweek": "Semaine dernière :",
         "us-2030-goal": "Estimation U.S.A 2030 : ",
@@ -237,32 +251,32 @@
         "equals-bananas": "soit {bananas, plural, =0{0 bananes} one {1 banane} other {# bananes}}"
     },
 
-    "main-diary": "Journal",
+    "main-diary" : "Journal",
 
-    "main-inf-scroll": {
-        "tab": "Label"
+    "main-inf-scroll" : {
+        "tab": "Libellé"
     },
 
-    "main-heatmap": {
+    "main-heatmap":{
         "title": "Points chauds",
-        "counts": "Comptage",
-        "stress": "Stress",
-        "from": "De :",
-        "to": "à :",
-        "get": "Go !",
+        "counts" : "Comptage",
+        "stress" : "Stress",
+        "from" : "De :",
+        "to" : "à :",
+        "get" : "Go !",
         "all": "TOUT",
         "none": "AUCUN",
         "bicycling": "VELO",
         "walking": "MARCHE",
         "in-vehicle": "VEHICULE",
-        "select-travel-mode": "Choix du mode",
+        "select-travel-mode" : "Choix du mode",
         "cancel": "Annuler",
         "tour-datepicker": "Cette carte superpose les données de tous les utilisateurs. Choisissez les dates, filtrez selon l'heure et le jour de la semaine.",
         "tour-mode": "Cliquez ici pour filtrer par mode. Par défaut, tous les modes sont affichés.",
         "tour-get": "Cliquez ici pour générer la carte."
     },
 
-    "details": {
+    "details":{
         "speed": "Vitesse",
         "time": "Durée",
         "tour-detail-content": "Pour signaler un incident, Zoomez puis indiquez le lieu de l'incident et cliquez sur la ligne bleue pour qualifier l'incident ☻ ou ☹",
@@ -274,35 +288,35 @@
     "list-datepicker-today": "Aujourd'hui",
     "list-datepicker-close": "Fermer",
     "list-datepicker-set": "Définir",
-    "list-tour-datepicker-button": "Choisissez le jour à afficher.",
-    "list-tour-diary-entry": "Cliquez sur la carte pour + de détails.",
-    "list-tour-map-fix-button": "Cliquez pour rafraichir la carte.",
+    "list-tour-datepicker-button" : "Choisissez le jour à afficher.",
+    "list-tour-diary-entry" : "Cliquez sur la carte pour + de détails.",
+    "list-tour-map-fix-button" : "Cliquez pour rafraichir la carte.",
 
-    "service": {
+    "service":{
         "reading-server": "Données lues du serveur...",
         "reading-cache": "Données lues dans le cache...",
         "reading-unprocessed-data": "Données non traitées en cours de lecture..."
     },
 
 
-    "post-trip-manual-incident-time": "Jour/Heure de l'incident",
+    "post-trip-manual-incident-time" : "Jour/Heure de l'incident",
 
-    "email-service": {
+    "email-service":{
         "email-account-not-configured": "Le compte email n'est pas configuré",
         "email-account-mail-app": "L'appli e-mail doit être configurée sinon cela ne fonctionnera pas.",
         "going-to-email": "Transfert par mail de la Base de Données {{parentDir}}",
-        "email-log": {
+        "email-log":{
             "subject-logs": "logs de TraceMob",
             "body-please-fill-in-what-is-wrong": "Merci d'indiquer ce qui ne fonctionne pas"
         },
         "no-email-address-configured": "Aucune adresse e-mail configurée.",
-        "email-data": {
+        "email-data":{
             "subject-data-dump-from-to": "Données du {{start}} au {{end}}",
             "body-data-consists-of-list-of-entries": "Les données sont une liste d'entrées.\n Vous pouvez trouver le format d'une entrée au lien suivant : https://github.com/e-mission/e-mission-server/tree/master/emission/core/wrapper \nLes données peuvent être chargées localement en suivant les instructions indiquées ici https://github.com/e-mission/e-mission-server#loading-test-data \n et peuvent être manipulées en suivant l'exemple disponible à ce lien : https://github.com/e-mission/e-mission-server/blob/master/Timeseries_Sample.ipynb"
         }
     },
 
-    "upload-service": {
+    "upload-service":{
         "upload-database": "Envoi de la base de données {{db}}",
         "upload-from-dir": "depuis le répertoire {{parentDir}}",
         "upload-to-server": "au serveur {{serverURL}}",
@@ -315,13 +329,15 @@
 
     "intro": {
         "appstatus": {
+            "overall-description": "Cette application fonctionne en arrière-plan pour créer automatiquement un journal de voyage pour vous. Assurez-vous que tous les paramètres ci-dessous sont verts afin que l'application puisse fonctionner correctement !",
             "overall-loc-name": "Localisation",
+            "overall-loc-description": "Nous utilisons la localisation en arrière-plan pour suivre votre position en arrière-plan, même lorsque l'application est fermée. La lecture des emplacements en arrière-plan élimine le besoin d'activer et de désactiver le suivi, ce qui facilite l'utilisation de l'application et évite l'épuisement de la batterie.",
             "locsettings": {
                 "name": "Paramètres de localisation",
                 "description": {
                     "android-lt-9": "Les services de localisation doivent être activés, avec le paramètre 'Haute Précision', afin de pouvoir enregistrer vos traces correctement.",
                     "android-gte-9": "Les services de localisation doivent être activés. Cela nous permet de recueillir vos positions",
-                    "ios": "Placeholder"
+                    "ios": "Les services de localisation doivent être activés. Cela nous permet d'accéder aux données de localisation et de générer le journal de bord"
                 }
             },
             "locperms": {
@@ -331,11 +347,13 @@
                     "android-6-9": "Choisissez 'autorisez' svp",
                     "android-10": "Choisissez 'autorisez tout le temps' svp",
                     "android-gte-11": "Sur la page de paramètres de l'app, pour la permission 'Localisation' permission : indiquez 'autoriser tout le temps' svp.",
-                    "ios": "Placeholder"
+                    "ios-lt-13": "Veuillez sélectionner 'Toujours autoriser'",
+                    "ios-gte-13": "Sur la page des paramètres de l'application, sélectionnez 'Toujours' et 'Précis' puis revenez ici pour continuer"
                 }
             },
             "overall-fitness-name-android": "Activité physique",
             "overall-fitness-name-ios": "Mouvements et forme",
+            "overall-fitness-description": "Les capteurs de l'activité physique distinguent les modes marche, vélo et motorisé. Nous utilisons ces données afin de séparer les parties des déplacements multimodaux comme le transport en commun. Nous l'utilisons également pour contre-vérifier les trajets potentiellement erronés - si le capteur de localisation saute à travers la ville mais que le capteur de condition physique est stationnaire, nous pouvons en déduire que le trajet n'était pas valide.",
             "fitnessperms": {
                 "name": "Permissions sport/santé ",
                 "description": {
@@ -344,23 +362,29 @@
                 }
             },
             "overall-notification-name": "Notifications",
+            "overall-notification-description": "Nous devons utiliser des notifications pour vous informer si les paramètres sont incorrects. Nous utilisons également des notifications push invisibles toutes les heures pour réveiller l'application et lui permettre de télécharger des données et de vérifier l'état de l'application. Nous utilisons également des notifications pour vous rappeler d'étiqueter vos trajets.",
             "notificationperms": {
                 "app-enabled-name": "Notifications de l'appli",
                 "not-paused-name": "Pas en pause",
                 "description": {
                     "android-enable": "Sur la page des paramètres de l'appli, vérifiez que toutes les notifications et tous les canaux sont autorisés.",
                     "android-unpause": "Sur la page des paramètres de l'appli, vérifiez que toutes les notifications sont autorisées. Si cela ne résout pas le problème, demandez de l'aide au support.",
-                    "ios": "Autorisez svp."
+                    "ios-enable": "Si nécessaire, veuillez autoriser dans la fenêtre ou dans les paramètres de l'application"
                 }
             },
             "overall-background-restrictions-name": "Restrictions d'arrière plan",
+            "overall-background-restrictions-description": "L'application fonctionne la plupart du temps en arrière-plan pour vous faciliter la vie. Il vous suffit de l'ouvrir périodiquement pour étiqueter les trajets. Android empêche parfois les applications de fonctionner en arrière-plan. Cela nous empêche de générer un carnet de voyage précis. Veuillez supprimer les restrictions d'arrière-plan sur cette application.",
             "unusedapprestrict": {
                 "name": "Désactiver les applis inutilisées",
                 "description": {
                     "android-disable": "Sur la page de paramètres de l'appli, vérifiez que les permissions de l'application ne seront pas automatiquement remises à zéro.",
                     "ios": "Autorisez svp."
                 }
-            }
+            },
+            "error-title": "Erreur",
+            "error-button": "Merci de corriger",
+            "fix": "Corriger",
+            "refresh": "Actualiser"
         },
         "permissions": {
             "locationPermExplanation-android-lt-6": "Vous avez accepté l'autorisation lors de l'installation. Vous n'avez rien à faire maintenant.",
@@ -374,12 +398,12 @@
     "allow_background": {
         "samsung": "Désactiver 'Mode économie d'énergie'"
     },
-    "consent": {
+    "consent":{
         "button-accept": "J'accepte",
         "button-decline": "Je refuse"
     },
 
-    "updatecheck": {
+    "updatecheck":{
         "downloading-update": "Mise à jour de l'Interface Utilisateur uniquement",
         "extracting-update": "Récupération de la mise à jour",
         "done": "Mise à jour faire, chargement en cours...",
@@ -387,9 +411,20 @@
         "download-not-now": "Pas maintenant",
         "download-apply": "Appliquer"
     },
-    "sensor_explanation": {
+    "sensor_explanation":{
         "button-accept": "OK",
         "button-decline": "Arrêt"
+    },
+    "survey": {
+        "prev-survey-found": "Trouver une réponse antérieure à l'enquête",
+        "use-prior-response": "Utiliser la réponse précédente",
+        "edit-response": "Modifier la réponse",
+        "move-on": "Continuer",
+        "survey": "Enquête",
+        "save": "Enregistrer",
+        "next": "Suivant",
+        "powered-by": "Activé par",
+        "dismiss": "Renvoyer"
     },
     "tracemob": {
         "consent": {
@@ -404,7 +439,7 @@
             "start-trip": "Débuter Déplacement",
             "stop-trip": "Finir Déplacement",
             "tracking": "Suivi activé",
-            "bind-with-cozy-cloud": "Sauvegarder mes données sur CozyCloud",
+            "bind-with-cozy-cloud": "Se connecter à mon CozyCloud",
             "view-privacy": "Politique de confidentialité",
             "calorie-data": "Données pour le calcul de calories",
             "calorie-erase-data": "Supprimer ces données",

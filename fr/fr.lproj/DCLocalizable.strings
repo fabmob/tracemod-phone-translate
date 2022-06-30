@@ -1,3 +1,4 @@
+/* ============================================================================================== */
 /* e-mission-data-collection */
 /* ============================================================================================== */
 "dont-force-kill-please" = "Merci de ne pas quitter l'application. Laissez-la fonctionner en arrière-plan. Cliquez pour la relancer";
@@ -15,6 +16,16 @@
 "location-permission-problem" = "L'application n'a pas l'autorisation 'Toujours' - le suivi des déplacements en arrière-plan ne fonctionnera pas.";
 "fix-permission-action-button" = "Corrigez l'autorisation";
 "precise-location-problem" = "L'application n\'a pas la permission de lire la localisation 'précise' - le suivi des trajets en arrière-plan ne fonctionnera pas.";
+"notifications_blocked" = "Notifications bloquées, veuillez activer";
+"notifications_blocked_app_open" = "Notifications bloquées, veuillez activer dans les paramètres de l'application et actualiser";
+"location_not_enabled" = "Localisaton désactivée, veuillez activer";
+"location_permission_off" = "Permissions de localisation insuffisantes, à activer";
+"location_permission_off_app_open" = "Permissions de localisation insuffisantes, veuillez activer dans les paramètres de l'application";
+"location_permission_off_enable" = "Autorisation de location insuffisante, veuillez activer";
+"activity_permission_off" = "Autorisation d'activité désactivée, veuillez activer";
+"activity_permission_off_app_open" = "Autorisation d'activité désactivée, veuillez activer dans les paramètres de l'application";
+"fix_app_status_title" = "Paramètres de l'application incorrects";
+"fix_app_status_text" = "Cliquez pour afficher et corriger l'état de l'application";
 /* ============================================================================================== */
 /* ============================================================================================== */
 /* ============================================================================================== */
