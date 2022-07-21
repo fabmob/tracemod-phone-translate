@@ -16,7 +16,7 @@
         "skip": "Sauter",
         "snoozed-reminder": "Rappel : en sommeil",
 
-        "snoozed-reapper-message": "Affiché à nouveau dans 30mins",
+        "snoozed-reapper-message": "Affiché à nouveau dans 30 mins",
         "platform-specific-message-ios": "Glisser vers la G ou toucher pour ajouter une info sur ce déplacement.",
         "platform-specific-message-android": "Voir les options ou toucher l'écran pour ajouter une info.",
         "platform-specific-message-other": "Toucher l'écran pour ajouter une info sur ce déplacement",
@@ -56,19 +56,19 @@
         "edit-demographics": "Modifier les données démographiques",
         "username": "Identifiant {{usernamedata}}",
         "tracking": "Tracking activé",
-        "app-status": "Status de l'application",
+        "app-status": "Permissions de l'application",
         "medium-accuracy": "Précision moyenne",
         "dark-theme": "Thème sombre",
         "force-sync": "Forcer la synchro",
         "share": "Partager",
         "check-ui-updates": "Vérifier les mises à jour",
-        "download-json-dump": "Télécharger les données json",
-        "email-log": "Envoyer les logs par email",
+        "download-json-dump": "Envoyer les données json par mail",
+        "email-log": "Envoyer les logs par mail",
         "upload-log": "Envoyer les logs",
         "view-privacy": "Politique de confidentialité",
         "user-data": "Mes données",
         "erase-data": "Effacer mes données",
-        "dev-zone": "Dev zone",
+        "dev-zone": "Zone technique",
         "refresh": "Rafraîchir",
         "end-trip-sync": "Forcer End trip + synchro",
         "check-consent": "Validation du consentement",
@@ -88,8 +88,8 @@
 
     "general-settings":{
         "choose-date" : "Date",
-        "choose-dataset" : "Choisir un paramètre calcul CO2",
-        "carbon-dataset" : "Paramètres calcul CO2",
+        "choose-dataset" : "Pays pour le calcul CO2",
+        "carbon-dataset" : "Choisir le code pays pour le calcul CO2",
         "nuke-ui-state-only" : "UI state only",
         "nuke-native-cache-only" : "Native cache only",
         "nuke-everything" : "Tout",
@@ -97,7 +97,7 @@
         "cancel": "Annuler",
         "user-data-erased": "Données effacées.",
         "consent-not-found": "Consentement utilisateur non trouvé, êtes-vous Ok pour accepter maintenant ?",
-        "no-consent-message": "OK! Note que vous n'aurez pas de stats sans votre accord!",
+        "no-consent-message": "OK! Notez que vous n'aurez pas de stats sans votre accord!",
         "consent-found": "Consentement trouvé!",
         "consented-to": "Accord pour le protocole {{protocol_id}}, {{approval_date}}",
         "consented-ok": "OK",
@@ -237,7 +237,7 @@
         "optimal": "Optimal :",
         "average": "Moyenne :",
         "avoided": "CO₂ évité :",
-        "label-to-squish": "Déplacements d'étiquettes pour réduire l'interval à un seul chiffre.",
+        "label-to-squish": "Déplacements d'étiquettes pour réduire l'intervalle à un seul chiffre.",
         "equals-phone-charges": "Économie d'au moins {charges, plural, =0{0 recharges} one {1 recharge} other {# recharges}}",
         "lastweek": "Semaine dernière :",
         "us-2030-goal": "Estimation U.S.A 2030 : ",
@@ -293,9 +293,9 @@
     "list-tour-map-fix-button" : "Cliquez pour rafraichir la carte.",
 
     "service":{
-        "reading-server": "Données lues du serveur...",
-        "reading-cache": "Données lues dans le cache...",
-        "reading-unprocessed-data": "Données non traitées en cours de lecture..."
+        "reading-server": "Lecture des données du serveur...",
+        "reading-cache": "Lecture des données du cache...",
+        "reading-unprocessed-data": "Lecture des données locales non traitées..."
     },
 
 
@@ -321,7 +321,7 @@
         "upload-from-dir": "depuis le répertoire {{parentDir}}",
         "upload-to-server": "au serveur {{serverURL}}",
         "going-to-email": "Va envoyer la base de donnée depuis {{parentDir}}",
-        "please-fill-in-what-is-wrong": "Veuillez saisir ce qui ne va pas",
+        "please-fill-in-what-is-wrong": "Veuillez décrire le problème svp",
         "upload-success": "Envoi réussi",
         "upload-progress": "Envoi de {{filesizemb | number}} MB vers {{serverURL}}",
         "upload-details": "{{filesizemb | number}} MB envoyés vers {{serverURL}}"
@@ -329,9 +329,9 @@
 
     "intro": {
         "appstatus": {
-            "overall-description": "Cette application fonctionne en arrière-plan pour créer automatiquement un journal de voyage pour vous. Assurez-vous que tous les paramètres ci-dessous sont verts afin que l'application puisse fonctionner correctement !",
+            "overall-description": "Cette application fonctionne en arrière-plan pour créer automatiquement un journal de vos déplacements. Assurez-vous que tous les paramètres ci-dessous sont verts afin que l'application fonctionne correctement !",
             "overall-loc-name": "Localisation",
-            "overall-loc-description": "Nous utilisons la localisation en arrière-plan pour suivre votre position en arrière-plan, même lorsque l'application est fermée. La lecture des emplacements en arrière-plan élimine le besoin d'activer et de désactiver le suivi, ce qui facilite l'utilisation de l'application et évite l'épuisement de la batterie.",
+            "overall-loc-description": "Nous utilisons la localisation en arrière-plan pour suivre votre position en arrière-plan, même lorsque l'application est fermée. La lecture des emplacements en arrière-plan élimine le besoin d'activer et de désactiver le suivi, ce qui facilite l'utilisation de l'application et évite de vider la batterie.",
             "locsettings": {
                 "name": "Paramètres de localisation",
                 "description": {
@@ -439,7 +439,7 @@
             "start-trip": "Débuter Déplacement",
             "stop-trip": "Finir Déplacement",
             "tracking": "Suivi activé",
-            "bind-with-cozy-cloud": "Se connecter à mon CozyCloud",
+            "bind-with-cozy-cloud": "Connecter un cloud personnel Cozy",
             "view-privacy": "Politique de confidentialité",
             "calorie-data": "Données pour le calcul de calories",
             "calorie-erase-data": "Supprimer ces données",
@@ -497,7 +497,7 @@
             "trips": "Déplacements",
             "duration": "Durées",
             "median-speed": "Vitesses médianes",
-            "mean-speed": "Vitesse moyenne",
+            "mean-speed": "Vitesses moyennes",
             "modes": {
                 "AIR_OR_HSR": "Avion",
                 "BICYCLING": "Vélo",
@@ -518,22 +518,25 @@
             "select-purpose-scroll": "👇 Faire défiler pour + 👇"
         },
         "cozy": {
-            "exp-text-1": "Je participe à l'expérimentation Self Data de La Rochelle",
+            "exp-text-1": "Participez-vous à l'expérimentation Self Data de La Rochelle? (Cette information servira uniquement à comptabiliser le nombre de participants)",
             "yes": "Oui",
             "no": "Non",
-            "text-1": "Vos données sont perdues en cas de :",
-            "list-1": "suppression de l'application,",
-            "list-2": "ou de suppression des données de l'application,",
-            "list-3": "ou de non-utilisation de l'application pendant 30 jours consécutifs.",
+            "exp-text-1": "Pourquoi connecter mon cloud personnel ?",
+            "text-1": "Vous pouvez sauvegarder vos données en créant un cloud personnel cozy cloud et en y installant le connecteur tracemob",
+            "text-2": "Une fois vos données connectées au cloud, vous bénéficierez d'une sauvegarde de vos données :",
+            "list-1": "- en cas de perte de votre téléphone",
+            "list-2": "- en cas de désinstallation de l'application TraceMob,",
+            "list-3": "- ou de sa non-utilisation pendant 30 jours consécutifs, ou de suppression des données de l'application,",
+            "list-4": "... pour réutiliser l'historique de vos déplacements, à votre seule discrétion, dans des usages à venir.",
             "text-2": "Pour conserver vos données, sauvegardez-les sur votre compte CozyCloud.",
             "text-3": "Vous pouvez le faire plus tard depuis la page profil.",
-            "bind": "Sauvegarder",
+            "bind": "Connecter",
             "later": "Plus tard"
         },
         "inactiveUser": {
             "title": "Données supprimées",
             "text-1": "TraceMob n'a pas été utilisée pendant au moins 30 jours consécutifs.",
-            "text-2": "Comme précisé dans les conditions générales d'utilisation, toutes les données récupérées par TraceMob ont été supprimés.",
+            "text-2": "Comme précisé dans les conditions générales d'utilisation, toutes les données récupérées par TraceMob ont été supprimées.",
             "text-3": "Vous pouvez à nouveau utiliser TraceMob en acceptant les C.G.U."
         }
     }

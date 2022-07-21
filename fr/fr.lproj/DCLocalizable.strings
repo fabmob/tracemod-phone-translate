@@ -10,7 +10,7 @@
 "activity-turned-off-problem" = "Service 'Mouvement et forme' désactivé - la détection automatique du mode de transport ne marchera pas. Merci de l'autoriser (Réglages -> Confidentialité -> Mouvements et forme)";
 "travel-mode-unknown" = "Détection du mode de déplacement indisponible - tous les trajets seront marqués UNKNOWN / INCONNU.";
 "bad-loc-tracking-problem" = "La précision de la localisation en arrière-plan est systématiquement médiocre - le suivi des trajets peut ne pas fonctionner. Signaler le problème";
-"location-turned-off-problem" = "Les services de localisation sont désactivés - le suivi des trajets ne fonctionnera pas. Activez-le (Paramètres -> Confidentialité -> Service de localisation)";
+"location-turned-off-problem" = "Les services de localisation sont désactivés - le suivi des trajets ne fonctionnera pas. Activez la localisation dans les paramètres de votre téléphone svp";
 "fix-service-action-button" = "Réglages";
 "permission-problem-title" = "Autorisation incorrecte";
 "location-permission-problem" = "L'application n'a pas l'autorisation 'Toujours' - le suivi des déplacements en arrière-plan ne fonctionnera pas.";
@@ -20,10 +20,10 @@
 "notifications_blocked_app_open" = "Notifications bloquées, veuillez activer dans les paramètres de l'application et actualiser";
 "location_not_enabled" = "Localisaton désactivée, veuillez activer";
 "location_permission_off" = "Permissions de localisation insuffisantes, à activer";
-"location_permission_off_app_open" = "Permissions de localisation insuffisantes, veuillez activer dans les paramètres de l'application";
-"location_permission_off_enable" = "Autorisation de location insuffisante, veuillez activer";
-"activity_permission_off" = "Autorisation d'activité désactivée, veuillez activer";
-"activity_permission_off_app_open" = "Autorisation d'activité désactivée, veuillez activer dans les paramètres de l'application";
+"location_permission_off_app_open" = "Permissions de localisation insuffisantes, veuillez les autoriser dans les paramètres de l'application";
+"location_permission_off_enable" = "Autorisation de localisation insuffisante, veuillez l'activer";
+"activity_permission_off" = "Autorisation d'activité désactivée, veuillez l'activer";
+"activity_permission_off_app_open" = "Autorisation d'activité désactivée, veuillez l'activer dans les paramètres de l'application";
 "fix_app_status_title" = "Paramètres de l'application incorrects";
 "fix_app_status_text" = "Cliquez pour afficher et corriger l'état de l'application";
 /* ============================================================================================== */
