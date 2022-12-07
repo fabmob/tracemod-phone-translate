@@ -424,7 +424,9 @@
         "save": "Enregistrer",
         "next": "Suivant",
         "powered-by": "Activé par",
-        "dismiss": "Renvoyer"
+        "dismiss": "Renvoyer",
+        "return-to-beginning": "Retourner au début",
+        "go-to-end": "Aller à la fin"
     },
     "tracemob": {
         "consent": {
