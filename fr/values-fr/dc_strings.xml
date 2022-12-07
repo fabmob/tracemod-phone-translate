@@ -18,20 +18,20 @@
     <!-- LocationChangeIntentService -->
     <string name="recording_location">Recueil de position </string>
     <!-- TripDiaryStateMachineReceiver -->
-    <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - recueil en pause jusqu\'à votre acceptation</string>
+    <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - collecte en pause jusqu\'à votre acceptation</string>
     <!-- debug mode only -->
-    <string name="battery_level">Interagissez! Niveau de batterie: %1$d</string>
+    <string name="battery_level">Niveau de batterie: %1$d</string>
     <!-- TripDiaryStateMachineService and Ongoing-->
     <string name="success_moving_new_state">Ok pour passer à %1$s</string>
     <string name="failed_moving_new_state">Échec pour passer à %1$s</string>
     <string name="location_permission_off">Permissions de localisation insuffisantes, à activer</string>
     <string name="location_permission_off_app_open">Permissions de localisation insuffisantes, veuillez activer dans les paramètres de l\'application.</string>
     <string name="location_permission_off_enable">Recueil de position désactivé, cliquez pour l\'activer</string>
-    <string name="background_loc_permission_off_enable">Receuil de position en arrière-plan désactivé, cliquez pour l\'activer</string>
+    <string name="background_loc_permission_off_enable">Recueil de position en arrière-plan désactivé, cliquez pour l\'activer</string>
     <string name="activity_permission_off">Autorisation d\'activité désactivée, veuillez activer</string>
     <string name="activity_permission_off_app_open">Autorisation d\'activité désactivée, veuillez activer dans les paramètres de l\'application</string>
     <string name="activity_permission_off_enable">Recueil des activités désactivé, cliquez pour l\'activer</string>
-    <string name="notifications_blocked">Notifications bloquées, veuillez activer</string>
+    <string name="notifications_blocked">Notifications bloquées, veuillez les activer</string>
     <string name="notifications_paused">Notifications en pause. Ce problème ne peut être résolu que par le développeur de l\'application. Veuillez le signaler à votre administrateur.</string>
     <string name="unused_apps_restricted">Veuillez autoriser cette application à lire les données du capteur même si vous ne la lancez pas souvent.</string>
     <string name="fix_app_status_title">Paramètres de l\'application incorrects</string>
@@ -42,13 +42,13 @@
     <!-- TripDiaryStateMachineForegroundService -->
     <string name="killed_foreground_service_detected_restart">killed_foreground_service_detected_restart</string>
     <!-- ConfigManager -->
-    <string name="error_reading_stored_config">Erreur de lecture de la configuration du suivi, remettez par défaut</string>
+    <string name="error_reading_stored_config">Erreur de lecture de la configuration du suivi, remettez la config par défaut</string>
     <!-- DataCollectionPlugin -->
-    <string name="user_rejected_setting">Il semble que vous ayez refusé la modification demandée. Veuillez l\'accepter.</string>
-    <string name="unable_resolve_issue">Erreur irrécupérable dans le suivi, signaler dans Profil -> Envoyer les Log</string>
+    <string name="user_rejected_setting">Il semble que vous ayez refusé la modification demandée. Veuillez l\'accepter svp.</string>
+    <string name="unable_resolve_issue">Erreur irrécupérable dans le suivi, signaler dans Profil -> Envoyer les Logs</string>
     <!-- State notification displays-->
-    <string name="local.state.waiting_for_trip_start">Prêt pour votre prochain voyage</string>
-    <string name="local.state.ongoing_trip">Bravo ! Vous êtes en voyage, continuez !</string>
+    <string name="local.state.waiting_for_trip_start">Prêt pour votre prochain déplacement</string>
+    <string name="local.state.ongoing_trip">Bravo ! Vous êtes en déplacement, continuez !</string>
     <string name="local.state.start">Impossible de lancer l\'application, voir le pop up suivant</string>
     <string name="local.state.tracking_stopped">Le suivi s\'est arrêté ; n\'oubliez pas de le réactiver.</string>
     <!-- ======================================================================================= -->
