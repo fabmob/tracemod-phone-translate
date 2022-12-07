@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GeofenceActions -->
+    <string name="unable_detect_current_location">No se puede detectar la ubicación actual incluso después de forzar, se volverá a intentar en la próxima sincronización</string>
+    <!-- ActivityRecognitionChangeIntentService.java (debug mode only) -->
+    <string name="detected_new_activity">Nueva actividad detectada: %1$s</string>
+    <string name="activity_transport">transporte público</string>
+    <string name="activity_cycling">ciclismo</string>
+    <string name="activity_walking">caminando</string>
+    <string name="activity_still">inmóvil</string>
+    <string name="activity_unknown">desconocida</string>
+    <string name="activity_tilting">inclinación</string>
+    <!-- TripDiaryStateMachineReceiver -->
+    <string name="new_data_collection_terms">Nuevos términos de recopilación de datos: recopilación en pausa</string>
+    <!-- debug mode only -->
+    <string name="battery_level">¡Interactúa conmigo! El nivel de la batería es  %1$d</string>
+    <!-- TripDiaryStateMachineService and Ongoing-->
+    <string name="success_moving_new_state">Éxito al mudarse a %1$s</string>
+    <string name="failed_moving_new_state">No se pudo mover a %1$s</string>
+    <string name="location_permission_off">Permisos de ubicación insuficientes</string>
+    <string name="location_permission_off_app_open">Permisos de ubicación insuficientes, corríjalos en la configuración de la aplicación</string>
+    <string name="location_permission_off_enable">Permiso de ubicación desactivado, haga clic para habilitar</string>
+    <string name="background_loc_permission_off_enable">Permiso de ubicación de fondo desactivado, haga clic para habilitar</string>
+    <string name="activity_permission_off">Permiso de actividad desactivado, corríjalo</string>
+    <string name="activity_permission_off_app_open">Permiso de actividad desactivado, corríjalo en la configuración de la aplicación</string>
+    <string name="activity_permission_off_enable">Permiso de actividad desactivado, haga clic para habilitar</string>
+    <string name="notifications_blocked">Notificaciones bloqueadas, habilítalas</string>
+    <string name="notifications_paused">Notificaciones en pausa. Esto solo lo puede solucionar el desarrollador de la aplicación. Informe a su administrador.</string>
+    <string name="unused_apps_restricted">Permita que esta aplicación lea los datos del sensor incluso si la inicia con poca frecuencia.</string>
+    <string name="fix_app_status_title">Configuración incorrecta de la aplicación</string>
+    <string name="fix_app_status_text">Haga clic para ver y corregir el estado de la aplicación</string>
+    <string name="error_location_settings">Error en la configuración de ubicación, haga clic para resolver</string>
+    <string name="unknown_error_location_settings">Error desconocido al leer la ubicación, verifique su configuración</string>
+    <string name="notify_curr_state">En estado %1$s</string>
+    <!-- TripDiaryStateMachineForegroundService -->
+    <string name="foreground_killed_email_log">Primer plano servicio asesinar, Perfil -> Registro de correo electrónico con depurar</string>
+    <!-- ConfigManager -->
+    <string name="error_reading_stored_config">Error al leer la configuración de seguimiento almacenada, restablecer los valores predeterminados</string>
+    <!-- DataCollectionPlugin -->
+    <string name="user_rejected_setting">Parece que cancelaste el cambio solicitado. Por favor, acéptalo en su lugar.</string>
+    <string name="unable_resolve_issue">Error irrecuperable en el seguimiento, informe en Perfil -> Cargar registro</string>
+    <!-- State notification displays-->
+    <string name="local.state.waiting_for_trip_start">Lista para tu próximo viaje</string>
+    <string name="local.state.ongoing_trip">¡Hurra! Estás de viaje, ¡sigue adelante!</string>
+    <string name="local.state.start">No se puede iniciar la aplicación, vea la siguiente ventana emergente</string>
+    <string name="local.state.tracking_stopped">Detenido el seguimiento; recuerda volver a habilitar</string>
+</resources>

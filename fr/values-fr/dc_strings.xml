@@ -13,6 +13,10 @@
     <string name="activity_still">arrêt</string>
     <string name="activity_unknown">inconnu</string>
     <string name="activity_tilting">en pente</string>
+    <!-- GeofenceExitIntentService -->
+    <string name="handling_geofence_exit">Sortie de geofence </string>
+    <!-- LocationChangeIntentService -->
+    <string name="recording_location">Recueil de position </string>
     <!-- TripDiaryStateMachineReceiver -->
     <string name="new_data_collection_terms">Nouvelles conditions générales d\'utilisation - recueil en pause jusqu\'à votre acceptation</string>
     <!-- debug mode only -->

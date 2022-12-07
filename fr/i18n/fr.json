@@ -56,6 +56,7 @@
         "edit-demographics": "Modifier les données démographiques",
         "username": "Identifiant {{usernamedata}}",
         "tracking": "Tracking activé",
+        "enable-opgeofence": "Début de voyage expérimental",
         "app-status": "Status de l'application",
         "medium-accuracy": "Précision moyenne",
         "dark-theme": "Thème sombre",
@@ -63,9 +64,9 @@
         "share": "Partager",
         "check-ui-updates": "Vérifier les mises à jour",
         "download-json-dump": "Télécharger les données json",
-        "email-log": "Envoyer les logs par email",
-        "upload-log": "Envoyer les logs",
-        "view-privacy": "Politique de confidentialité",
+        "email-log": "Envoyer les logs",
+        "upload-log": "Copier les logs",
+        "view-privacy": "Voir la politique de confidentialité",
         "user-data": "Mes données",
         "erase-data": "Effacer mes données",
         "dev-zone": "Dev zone",
@@ -83,7 +84,8 @@
         "sync": "Synchro",
         "transition-notify": "Notifier une transition",
         "button-accept": "J'accepte",
-        "view-qrc": "Mon QR Code"
+        "view-qrc": "Mon QR Code",
+        "app-version": "Version de l'Application"
     },
 
     "general-settings":{
