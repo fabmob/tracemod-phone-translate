@@ -483,8 +483,7 @@
                 "confirm": "Confirmer"
             },
             "retrieving-location": "Récupération de la position...",
-            "cannot-retrieve-position-location-disabled": "Localisation désactivée, récupération de votre position impossible.",
-            "user-data-erase": "Vos données seront automatiquement supprimées 30 jours après la suppression de l'application de votre téléphone. Vos données ne seront plus récupérables une fois l'application supprimée."
+            "cannot-retrieve-position-location-disabled": "Localisation désactivée, récupération de votre position impossible.",            "user-data-erase": "Vos données seront automatiquement supprimées 30 jours après la suppression de l'application de votre téléphone. Vos données ne seront plus récupérables une fois l'application supprimée."
         },
         "main-metrics": {
             "from": "de",
@@ -542,6 +541,10 @@
             "text-1": "TraceMob n'a pas été utilisée pendant au moins 30 jours consécutifs.",
             "text-2": "Comme précisé dans les conditions générales d'utilisation, toutes les données récupérées par TraceMob ont été supprimées.",
             "text-3": "Vous pouvez à nouveau utiliser TraceMob en acceptant les C.G.U."
+        },
+        "localnotify": {
+            "handle": "Gérer",
+            "ignore": "Ignorer"
         }
     }
 }
